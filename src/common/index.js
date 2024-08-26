@@ -1,4 +1,4 @@
-const backendDomin = "https://new-backend-1dk8.onrender.com"
+const backendDomin = "https://new-backend-lemon.vercel.app"
 
 const SummaryApi = {
     signUP : {
