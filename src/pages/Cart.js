@@ -231,7 +231,7 @@ const Cart = () => {
                             <ul className="list-disc pl-5">
                                 <li>Scan the QR code below to make the payment using Google Pay.</li>
                                 <li>After making the payment, take a screenshot of the payment confirmation.</li>
-                                <li>Send the screenshot along with your delivery address and product details to the WhatsApp number: <strong onClick={() => copyToClipboard('+91 7598628057')} className="cursor-pointer text-blue-500">+91 73971 07784</strong>.</li>
+                                <li>Send the screenshot along with your delivery address and product details to the WhatsApp number: <strong onClick={() => copyToClipboard('+91 7598628057')} className="cursor-pointer text-blue-500">+91 75986 28057</strong>.</li>
                                 <li>If the QR code expires, please refresh the page to generate a new QR code.</li>
                             </ul>
                         </p>
