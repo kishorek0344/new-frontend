@@ -150,9 +150,9 @@ const Cart = () => {
                                                 <p className='text-slate-600 font-semibold text-lg'>{displayINRCurrency(product?.productId?.sellingPrice * product?.quantity)}</p>
                                             </div>
                                             <div className='flex items-center gap-3 mt-1'>
-                                                <button className='border border-red-600 text-red-600 hover:bg-blue-600 hover:text-white w-6 h-6 flex justify-center items-center rounded ' onClick={() => decraseQty(product?._id, product?.quantity)}>-</button>
+                                                <button className='border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white w-6 h-6 flex justify-center items-center rounded ' onClick={() => decraseQty(product?._id, product?.quantity)}>-</button>
                                                 <span>{product?.quantity}</span>
-                                                <button className='border border-red-600 text-red-600 hover:bg-blue-600 hover:text-white w-6 h-6 flex justify-center items-center rounded ' onClick={() => increaseQty(product?._id, product?.quantity)}>+</button>
+                                                <button className='border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white w-6 h-6 flex justify-center items-center rounded ' onClick={() => increaseQty(product?._id, product?.quantity)}>+</button>
                                             </div>
                                         </div>
                                     </div>
