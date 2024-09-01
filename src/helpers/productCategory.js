@@ -11,6 +11,9 @@ const productCategory = [
     { id : 10, label : "Trimmers", value : "trimmers"},
     { id : 11, label : "Gifts", value : "gifts"},
     { id : 12, label : "Gadget", value : "Gadget"},
+    { id : 13, label : "Electronic and Home Applicances", value : "electronic and home applicances"},
+    { id : 14, label : "Kitchen Ware", value : "kitchen ware"},
+    { id : 15, label : "Furniture", value : "Furniture's"},
 ]
 
 
